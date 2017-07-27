@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.mitvspain"
+    name="Mitvspain"
+    version="1.1.6"
+    provider-name="MiTvSpain - Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="es">PelÃ­culas y series a la carta</summary>
+    <description lang="es">PelÃ­culas, series, documentales, anime, ... Todo estÃ¡ en Internet, y ahora en tu media center.</description>
+    <summary lang="en">Movies and TV Shows on demand</summary>
+    <description lang="en">Movies, Series, Documentaries, Anime, ... Everything is on the net, and now on your media center.</description>
+    <platform>all</platform>
+    <license>GNU GPL v3</license>
+  </extension>
+  <extension point="xbmc.service" library="library_service.py" start="login|startup">
+  </extension>
+</addon>
+
+<addon id="repository.mitvspain" name="MiTv Repository" version="1.1.0" provider-name="MiTvSpain - Team">
+	<extension point="xbmc.addon.repository" name="MiTv Repository">
+		<info compressed="false">https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/repo/</datadir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Actualizaciones Kodi addons</summary>
+		<description>Repositorio con todo lo necesario para instalar sin problemas MiTvSpain - Team</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
