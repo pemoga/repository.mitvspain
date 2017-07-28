@@ -23,6 +23,20 @@
   </extension>
 </addon>
 
+<addon id="repository.kodispain" name="kodispain repository" version="1.0" provider-name="joheos11">
+	<extension point="xbmc.addon.repository" name="KodiSpain repository">
+		<info compressed="false">https://raw.githubusercontent.com/joheos11/repository.kodispain/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/joheos11/repository.kodispain/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/joheos11/repository.kodispain/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>-KodiSpain Repo</summary>
+		<description>Repositorio creado para grupo telegram http://t.me/kodispain</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.mitvspain" name="MiTv Repository" version="1.1.0" provider-name="MiTvSpain - Team">
 	<extension point="xbmc.addon.repository" name="MiTv Repository">
 		<info compressed="false">https://raw.githubusercontent.com/MiTvSpain/repository.mitvspain/master/addons.xml</info>
@@ -36,5 +50,28 @@
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
+</addon>
+
+<addon id="script.LimpiadorKodiMiTv"
+       name="[COLOR gold]Limpiador Cache MiTv[/COLOR]"
+       version="0.0.2"
+       provider-name="MiTv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+ 	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Limpiar</summary>
+    <description>Limpia la cache de Kodi.</description>
+    <language></language>
+    <license></license>
+    <source></source>
+    <forum></forum>
+    <website></website>
+  </extension>
 </addon>
 </addons>
