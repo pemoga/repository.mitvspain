@@ -68,27 +68,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.palantir" name="[COLOR gold]Palantir[/COLOR]" version="0.0.4" provider-name="TierraMedia">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="orthanc.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>TV</summary>
-    <description>Visualiza el contenido de la nube, series, pelÃ­culas.</description>
-    <disclaimer></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license></license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
 <addon id="program.plexus"
        name="Plexus"
        version="0.1.6.a"
@@ -139,67 +118,6 @@
 		<summary>Actualizaciones Kodi addons</summary>
 		<description>Repositorio con todo lo necesario para instalar sin problemas MiTvSpain - Team</description>
 		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.plexus-streams" name="Plexus-Streams Repository" version="1.0.0" provider-name="D4FC">
-	<extension point="xbmc.addon.repository" name="Plexus-Streams Repository">
-		<info compressed="false">https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/addons.xml</info>
-		<checksum>https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/addons.xml.md5</checksum>
-		<datadir zip="true">https://bitbucket.org/plexus-streams/plexus-streams/raw/releases/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Plexus-Streams Repository</summary>
-		<description>Plexus-Streams Repository</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.ronniehd" name="RonnieHD repository" version="1.0.1" provider-name="RonnieHD">
-	<extension point="xbmc.addon.repository" name="RonnieHD Repository">
-		<info compressed="false">https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/ronniehd/repository.ronniehd/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/ronniehd/repository.ronniehd/raw/master/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Third party Kodi addons updates/mods</summary>
-		<description>RonnieHD Repository</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.shani" name="Shanis Addon Repository" version="2.9" provider-name="Shani">
-	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
-        <dir>
-			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-		</dir>
-
-    <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
-    <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
-    <datadir zip="true">https://offshoregit.com/Shani-08/main/zips</datadir>
-
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Addons related to XBMC for Zemtv etc</summary>
-		<description>Go though the plugins and see what you like</description>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.ytplugin" name="Youtube Addon Repo" version="1.0" provider-name="Jeffrey Frasure">
-	<extension point="xbmc.addon.repository" name="Youtube Addon Repository">
-		<info compressed="false">https://github.com/jdf76/repository/raw/master/addons.xml</info>
-		<checksum>https://github.com/jdf76/repository/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/jdf76/repository/raw/master/zips</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install Kodis Youtube Addons</summary>
-                <description>Download and install addons from the Kodi Youtube group. This plugin is not official from Google.</description>
 		<platform>all</platform>
 	</extension>
 </addon>
