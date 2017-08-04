@@ -47,7 +47,7 @@
 
 <addon id="plugin.video.mitvspain"
     name="Mitvspain"
-    version="1.1.10"
+    version="1.1.11"
     provider-name="MiTvSpain - Team">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -59,7 +59,11 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="es">PelÃ­culas y series a la carta</summary>
     <description lang="es">PelÃ­culas, series, documentales, anime, ... Todo estÃ¡ en Internet, y ahora en tu media center.</description>
-    <news>AÃ±adida opcion elegir gestor de torrente des configuraciÃ³n, aÃ±adida opcion actualizacion de canales</news>
+    <news>Reparada opcion elegir gestor de torrente para versiones de Kodi y Spmc inferiores a 17.3
+AÃ±adidos canales:
+				+pepecine
+				+bajui2
+				+locopelis</news>
 
     <platform>all</platform>
     <license>GNU GPL v3</license>
