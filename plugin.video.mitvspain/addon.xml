@@ -15,6 +15,7 @@
     <description lang="es">MiTvSpain no dispone de ningun contenido alojado en servidores propios, es un buscador de enlaces ajenos.</description>
     <news></news>
    
+   
     <platform>all</platform>
     <license>GNU GPL v3</license>
   </extension>
