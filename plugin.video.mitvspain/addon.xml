@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.mitvspain"
     name="Mitvspain"
-    version="2.1.2"
+    version="2.1.3"
     provider-name="MiTvSpain - Team">
   <requires>
     <import addon="xbmc.python" version="2.1.1"/>
@@ -14,8 +14,7 @@
     <summary lang="es">Buscador de Peliculas y series alojadas en internet</summary>
     <description lang="es">MiTvSpain no dispone de ningun contenido alojado en servidores propios, es un buscador de enlaces ajenos.</description>
     <news></news>
-   
-   
+    
     <platform>all</platform>
     <license>GNU GPL v3</license>
   </extension>
