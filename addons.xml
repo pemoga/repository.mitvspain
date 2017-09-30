@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.torrenter" name="Torrenter" version="2.6.1" provider-name="DiMartino">
+<addon id="plugin.video.torrenter" 
+	   name="Torrenter" 
+	   version="2.6.1" 
+	   provider-name="DiMartino">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.libtorrent"/>
@@ -14,6 +17,8 @@
     <extension point="xbmc.python.pluginsource" provides="video" library="default.py">
         <provides>video</provides>
     </extension>
+	
+	
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang='en'>Plugin helps you to watch videos from p2p torrent-networks, without full predownload.
